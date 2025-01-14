@@ -1,3 +1,27 @@
 {
-  "transactions": []
+  "transactions": [
+    {
+      "id": "702a5db4-da8d-410e-931e-d570d806ef2b",
+      "userName": "yash",
+      "income": "6000",
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 200
+        },
+        {
+          "category": "Transport",
+          "amount": 100
+        },
+        {
+          "category": "Entertainment",
+          "amount": 150
+        },
+        {
+          "category": "Bills",
+          "amount": 110
+        }
+      ]
+    }
+  ]
 }

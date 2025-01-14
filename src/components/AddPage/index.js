@@ -86,7 +86,7 @@ const AddPage = () => {
               <label className='category'>{expense.category}:</label>
               <input
                 type="number"
-                value={expense.amount}
+                value={isNaN(expense.amount)?'': expense.amount}
                 onChange={(e) => handleAmountChange(index, parseFloat(e.target.value))}
                 className='input-amount'
                 required
